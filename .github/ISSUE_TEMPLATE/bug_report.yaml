@@ -63,19 +63,11 @@ body:
         - hoog
         - laag
         - geen
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevante log bestanden
-      description: |
-        Kopieër hier aub relevante logs in, dus als er errors in je console waren aub deze hierin kopiëren, zie [log bestanden](https://tedeapolis.nl/tutorials/#log-bestanden)
-        Gelieve het volledige logbestand hierin te plaatsen (dus even op "Open Log" klikken in console en dit bestand uploaden)
-      placeholder: Sleep hier je logbestanden heen
   - type: checkboxes
     id: richtlijnen
     attributes:
       label: Richtlijnen
-      description: Door deze issue aan te maken ga je akkoord met onze [contributing](https://github.com/Tedeapolis/development/blob/master/CONTRIBUTING.md) richtlijnen
+      description: Door deze issue aan te maken ga je akkoord met onze richtlijnen
       options:
         - label: Ik ga akkoord met de issue richtlijnen en heb deze aandachtig gelezen
           required: true
